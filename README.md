@@ -26,7 +26,7 @@
    See the License for the specific language governing permissions and
    limitations under the License.
 
-
+---
 
 ## Instructions
 
@@ -72,6 +72,8 @@ Clicking on `View Unaccounted-for Staff Members` will bring up a list of all sta
 ![additional staff sign-in options](resources/images/instructions/manual_sign_in.png)
 
 Clicking on the `Sign In`, `Shmira`, or `Day Off` buttons in this window will sign in the listed staff member either normally, as on shmira, or as on a day off, respectively.
+
+---
 
 ## Known Bugs
 
