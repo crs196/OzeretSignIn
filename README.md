@@ -39,7 +39,7 @@ The way that my sample is formatted is not the only way that the spreadsheet can
 ![screenshot of sample spreadsheet](resources/images/instructions/spreadsheet_format.png)  
 
 The `Bunk` and `Name` columns *must* be present in the spreadsheet; they are in fact the only two required columns.   
-The `ID` column should only exist if the ID that staff members sign in with is something other than their name (e.g. a number).  
+The `ID` column holds the ID that staff members sign in with is something other than their name (e.g. a number). If staff members sign in with their name, the `ID` column does not need to exist. 
 The `On Time`, `Late`, and `Absent` columns can exist if you want to gather the respective summary statistics about how many times each staff member was on time, late, or absent, respectively. You don't have to have all three if you don't want to—just pick the ones you want.  
 
 These columns can be in whatever order you want them to be, and you can feel free to add empty columns between them to space them out (as the sample does between `ID` and `On Time`).
@@ -49,6 +49,7 @@ The second and third rows should not be empty. The program will write the name o
 
 
 Each row represents a staff member. The staff member's name should be in the `Name` column, their bunk in the `Bunk` column, and their ID in the `ID` column (if it exists). The `On Time`, `Late`, and `Absent` columns (if they exist) can either be empty or have a number in them (an empty cell is treated as if it has a 0 in it).  
+
 
 Once you're satisfied with your spreadsheet's layout, save it (it doesn't matter where, but I recommend saving it in this folder for ease of access) and [start the application](OzeretSignIn.exe).
 
@@ -60,10 +61,10 @@ The first screen that shows up on application start-up is relatively self-explan
 
 ![sign in window of application](resources/images/instructions/sign_in_window.png)
 
-This is the main window of the application. In order to sign in a staff member, type/scan/enter their name (or ID, if it exists) into the text field and click the `Sign In` button. Confirmation and error messages will be displayed on the area between the text field and the `Sign In` button.  
-If you want to write all currently taken data back to the attendance spreadsheet, press the `Save` button, and if you're done signing in, press the `Save and Quit` button to write back to the attendance spreadsheet and close the program.  
+This is the main window of the application. In order to sign in a staff member, type/scan/enter their name (or ID, if it exists) into the text field and click the `Sign In` button or press Enter. Confirmation and error messages will be displayed on the area below the text field and the `Sign In` button.  
+If you want to write all currently taken data back to the attendance spreadsheet, press the `Save` button, and if you're done signing in, press the `Save and Return to Setup` button to write back to the attendance spreadsheet and return to the previous (setup) screen.  
 
-**VERY IMPORTANT: Make sure you do not have your attendance spreadsheet open while attempting to write to it (`Save` or `Save and Quit`). The write will fail and data may be lost.**
+**VERY IMPORTANT: Make sure you do not have your attendance spreadsheet open while attempting to write to it (`Save` or `Save and Return to Setup`). The write will fail and data may be lost.**
 
 ![unacounted-for staff list](resources/images/instructions/unaccounted_staff.png)
 
